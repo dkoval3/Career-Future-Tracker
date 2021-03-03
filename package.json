@@ -1,0 +1,23 @@
+{
+  "name": "Career-Future-Tracker",
+  "version": "1.0.0",
+  "description": "Public repository for GTWebDev's internship and job tracker web application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkoval3/Career-Future-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkoval3/Career-Future-Tracker/issues"
+  },
+  "homepage": "https://github.com/dkoval3/Career-Future-Tracker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

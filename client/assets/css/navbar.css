@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-family: Ubuntu;
+    color: white;
+}
+
+.left-side-nav {
+    display: flex;
+}
+
+.right-side-nav {
+    display: flex;
+}
+
+.icon {
+    margin: .8em;
+}
+
+.sign-out {
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #5258B1, #FA03FF);
+    color: white;
+    width: 70px;
+    height: 40px;
+    margin: 0.8em;
+}
+
+.sign-out:hover {
+    cursor: pointer;
+}
+
+.nav-line {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
