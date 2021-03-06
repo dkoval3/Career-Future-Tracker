@@ -1,0 +1,77 @@
+body {
+    background: url(../stylesheets/images/background.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    height: 100vh;
+    background-color: rgb(33, 33, 173);
+    margin: 0;
+}
+
+nav {
+   
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    display: flex;
+    font-family: "Cabin";
+    font-size:xx-large;
+}
+
+.hero {
+    color: black;
+    list-style-type: none;
+    width: 95%;
+    height:100%;
+    display: block;
+    background-color: blueviolet;
+    border-radius: 15px;
+    opacity:0.8;
+    margin-bottom: 40px;
+}
+
+
+menu {
+    list-style-type: none;
+    width: 40%;
+    display: flex;
+}
+
+.menu svg {
+padding: 15px;
+}
+
+.hero ul li {
+    display: inline-block;
+    position:relative;
+    vertical-align:top;
+    width:30%;
+}
+
+#h1{
+    font-size: 55px;
+    font-family: "Cabin";
+    text-align: left;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+#h2 {
+    font-size: 55px;
+    font-family: "Cabin";
+    text-align: center;
+    left: 5%;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+
+#h3 {
+    font-size: 55px;
+    font-family: "Cabin";
+    text-align: right;
+    left: 10%;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
