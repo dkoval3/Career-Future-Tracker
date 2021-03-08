@@ -19,9 +19,10 @@ nav {
     display: flex;
     font-family: "Cabin";
     font-size:xx-large;
+    pointer-events: none;
 }
 
-.hero {
+.a {
     color: black;
     list-style-type: none;
     width: 95%;
@@ -42,9 +43,10 @@ menu {
 
 .menu svg {
 padding: 15px;
+pointer-events: none;
 }
 
-.hero ul li {
+.a ul li {
     display: inline-block;
     position:relative;
     vertical-align:top;

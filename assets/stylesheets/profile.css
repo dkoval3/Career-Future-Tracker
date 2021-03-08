@@ -1,0 +1,53 @@
+body {
+    background: url(../stylesheets/images/background.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    height: 100vh;
+    background-color: rgb(33, 33, 173);
+    margin: 0;
+    
+}
+
+nav {
+   
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    display: flex;
+    font-family: "Cabin";
+    font-size:xx-large;
+}
+
+#profile {
+    color: white;
+}
+
+#imageUpload
+{
+    display: none;
+}
+
+#profileImage
+{
+    cursor: pointer;
+}
+
+#profile-container {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#profile-container img {
+    width: 150px;
+    height: 150px;
+}
